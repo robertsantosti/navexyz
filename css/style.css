@@ -1,0 +1,102 @@
+/*Geral*/
+
+*{
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI;
+}
+
+/*Bootstrap CSS*/
+
+.container{
+    margin: 0 3%;
+}
+
+.clear{
+    clear: both;
+}
+
+/*Navbar*/
+header{
+    background-color: #000;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    align-items: center;
+    position: relative;
+}
+
+header div.logo{
+    align-items: center;
+}
+
+header nav.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav.navbar ul li{
+    padding: 10px;
+}
+
+header nav.navbar ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+header nav.navbar ul button{
+    width: 75px;
+    padding: 10px 0;
+    background-color: #FF4500;
+    color: #FFF;
+    font-weight: 300;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+/*Inicio*/
+
+#home{
+    padding: 4em 0;
+    text-align: center;
+    background: #070A11;
+}
+
+#home button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #FF4500;
+    color: #FFF;
+    font-weight: 700;
+}
+
+
+/*Quem somos*/
+
+#quemsomos{
+    height: 35em;
+}
+
+#quemsomos h2{
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-weight: 3em;
+}
+
+#quemsomos img{
+    width: 500px;
+    border-radius: 15px;
+}
+
+.equipe-foto{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/**/
